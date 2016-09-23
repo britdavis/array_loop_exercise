@@ -1,0 +1,16 @@
+notes
+
+css position
+I need to look at absolute and relative concepts, also span.
+
+Look at css inherited properties. important for inheritance.
+
+
+emmett examples
+(! is starting from blank, remove it )
+	!>table>tr*5>td.hello*3
+
+	!>h1+table>tr*5>th+td.hello$*3
+
+
+
