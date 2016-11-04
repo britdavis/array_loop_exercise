@@ -12,29 +12,19 @@
 
 	<script>
 		// Complete the code below to print out the index of the string "apples" in the array "fruit"
-
+		
 		var fruit = ["oranges", "pineapples", "strawberries", "apples", "tangerines", "grapes", "pears"];
 
 		var index = -1;
-		var i = 0
+		var i = 0;
 
 		while (i < fruit.length) {
 			if (fruit[i] === "apples") {
 				index = i;
-				}
-				i = i + 1;
-				
 			}
-			
-		
-
-		// Hint:
-		//     while(...) {
-		//         if(...){
-		//             ...
-		//         }
-		//     }
-
+			i = i + 1;
+				
+		}
 		document.getElementById('answer').innerHTML = index;
 	</script>
 </body>
